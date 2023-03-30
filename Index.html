@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modelo de CV</title>
+<!-- Vinculando CSS,para la elección de color de fuentes -->
+<link rel="stylesheet" href="stylecv.css">
+</head>
+<body background="fondos-para-páginas-web-12.jpg"></body>
+<body>
+<!-- Agregando sonido de fondo a la página(Obtenido de https://audionautix.com ) -->
+  <audio controls><source src="https://audionautix.com/Music/12Mornings.mp3" loop="loop">
+    Your browser does not support the audio element.
+  </audio>
+  <h3>Musica compuesta y producida por Jason Shaw</h3>
+      
+    <!--Vinculando a Javascript, para el cálculo de la Edad Actual-->
+  <script src="IndexCv.js"> </script>
+  <div align="center"><img src="https://randomuser.me/api/portraits/men/21.jpg" alt="Imagen de Peter Cantropus" height= "250pix" width="250pix"/>
+  
+        <h1> Datos Personales</h1>
+        <h2>Nombre y Apellido :Peter Cantropus</h2>
+        <h2>Fecha de Nacimiento:15 de Febrero de 1961</h2>
+        <h2> Edad Actual: <script>document.write (edad)</script> Años</h2>
+        <h2>DNI:88.188.018</h2>
+        <h2>Teléfono:54-11-15-1234-5678</h2> 
+
+      <h1> Desarrollador Web</h1>
+      <h4> Incorporación de material multimedia a tu sitio web </h4> 
+  <!-- Agregando en elemento multimedia(video) -->
+      <iframe width="420" height="315"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>        
+      <hr>
+        <h1>Educación Específica </h1>
+      </hr>
+      <!--Vinculando a sitios web-->
+          <A HREF="https://www.ticmas.com/"><h2>Ticmas Academy</h2></A>
+          <h4> Diciembre 2022 - Febrero 2023</h4>
+          <h4>Fundamentos de la Programación y Desarrollo Web</h4>
+          <p><span style="color: red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, recusandae, corporis, tempore nam fugit deleniti sequi excepturi quod repellat laboriosam soluta laudantium amet dicta non ratione distinctio nihil dignissimos esse!  </span></p>
+      <!--Vinculando a sitios web-->
+          <A HREF="https://eggeducacion.com/es-AR/"><h2>Egg Academy</h2></A>
+          <h4> Octubre 2022 - Diciembre 2022</h4>
+          <h4>Programacíon desde Cero</h4>
+          <p><span style="color: red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, recusandae, corporis, tempore nam fugit deleniti sequi excepturi quod repellat laboriosam soluta laudantium amet dicta non ratione distinctio nihil dignissimos esse!  </span></p>
+      <hr>
+        <h1>Habilidades Adquiridas</h1>
+      </hr>
+      <hr>
+      <!--Incorporando barras de progreso-->
+        <div><h3> HTML 70%</h3></div>
+          <label for="html"></label>
+          <progress id="html" max="100" value="70"> 70% </progress>
+          <div><h3> CSS 60%</h3></div>
+          <label for="CSS"></label>
+          <progress id="CSS" max="100" value="60"> 60% </progress>
+          <div><h3> Javascript 50%</h3></div>
+          <label for="Javascript"></label>
+          <progress id="Javascript" max="100" value="50"> 50% </progress>
+      </hr>
+      <hr>
+        <h1>Experiencia Laboral</h1>
+            <h2>La Argenta Inc.</h2>
+            <h3>Desde Febrero 2023</h3><h3>Función:Desarrollador Web</h3>
+      </hr>   
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, recusandae, corporis, tempore nam fugit deleniti sequi excepturi quod repellat laboriosam soluta laudantium amet dicta non ratione distinctio nihil dignissimos esse!</p>
+        <ul>
+          <div align="left">
+          <span style="color: red">
+        	<li>1.-Lorem ipsum dolor sit amet.</li>
+        	<li>2.-Lorem ipsum dolor sit amet, consectetur.</li>
+        	<li>3.-Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+          </span>
+          </div>
+        </ul>
+        <h2>Mengano Corp.</h2>
+        <h3>Enero 2022 - Diciembre 2022</h3><h3>Función:Programación en Pseudo Código</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, recusandae, corporis, tempore nam fugit deleniti sequi excepturi quod repellat laboriosam soluta laudantium amet dicta non ratione distinctio nihil dignissimos esse!</p>
+        <ul>
+          <div align="left">
+            <span style="color: red;">
+              <li>1.-Lorem ipsum dolor sit amet.</li>
+              <li>2.-Lorem ipsum dolor sit amet, consectetur.</li>
+              <li>3.-Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            </span>
+          </div>
+        </ul>
+ 
+    </div>
+    <hr>
+      <h2>Contacto:petercantropus@correo.com</h2>
+      <h2>Para información específica sobre tus proyectos, registrarse a continuación : </h2>
+    <!--Agregando un formulario,para almacenar datos de los consultantes-->
+      <div align="center">
+        <form action="" method="get">
+		    <label><h3>Nombre</h3></label>
+		    <input type="text" name="Nombre" placeholder= "Ingrese su Nombre"/>
+		    <label><h3>Apellido</h3></label>
+		    <input type="text" name="Apellido" placeholder= "Ingrese su Apellido"/>
+		    <label><h3>E-mail</h3></label>
+		    <input type="email" name="Correo" placeholder= "Ingrese su correo"/>
+		    <label><h3>Password</h3></label>
+		    <input type="password" name="Contraseña" placeholder= "Ingrese su contraseña" />
+        <input type="submit" value="enviar"/>
+	      </form>
+      </div>  
+    <hr>
+  </div>
+ 
+</body>
+</html>

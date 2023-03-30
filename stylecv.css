@@ -1,0 +1,35 @@
+
+h1 {   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 1.42857143;
+    color:Red;
+    margin: 0;
+  }
+ 
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color:yellow;
+    }
+
+h3 {
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    width:300 px;
+    }
+
+h4 {
+    color:darkorange;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    width:300 px;
+    } 
+
+p  {
+    color:yellowgreen;
+    font-weight: bold;
+    width:300 px;
+    }
+ 
